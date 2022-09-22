@@ -1,0 +1,48 @@
+:root {
+
+    /* FONTS  */
+    --font-primary: 'koodak', 'nazanin';
+    --font-secondry: 'yekan', 'koodak';
+    --font-tertiary: 'nazanin', 'yekan';
+    --font-fourth: 'gandom', 'koodak';
+
+    /* COLORS */
+    --color-white: #fff;
+
+
+    --color-primary: #eb2f64;
+    --color-primary-light: #ff3366;
+    --color-primary-dark: #ba265d;
+
+    --color-gray-light-1: #faf9f9;
+    --color-gray-light-2: #f4f2f2;
+    --color-gray-light-3: #f0eeee;
+    --color-gray-light-4: #ccc;
+
+    --color-gray-dark-1: #333;
+    --color-gray-dark-2: #777;
+    --color-gray-dark-3: #999;
+
+
+    --box-shadow-primary: 0 5rem 10rem rgba(0, 0, 0, 0.4);
+    --box-shadow-secondry: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+    --box-shadow-tertiary: 0 1rem 4rem rgba(0, 0, 0, 0.06);
+
+
+    --border-radius-primary: 3px;
+    --line: 1px solid var(--color-gray-light-3);
+
+    --s-transition: all 0.5s;
+
+
+
+}
+
+/* SIZE OF MEDIA QUERY 
+    --small-phone: 500px;
+    --phone: 600px;
+    --tab-port: 768;
+    --tab-land: 963px;
+    --desktab-normal: 1200px;
+    --dektop-big: 1800px;
+*/

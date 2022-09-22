@@ -1,0 +1,55 @@
+/* ABSTARCTS CSS */
+@import 'abstracts/_variables.css';
+
+
+
+/* BASE CSS */
+@import 'base/_animatios.css';
+@import 'base/_font-face.css';
+@import 'base/_typographi.css';
+@import 'base/_utilities.css';
+
+
+/* COMPONENTS CSS */
+@import 'components/_btn.css';
+@import 'components/_container.css';
+@import 'components/_discription.css';
+@import 'components/_gallery.css';
+@import 'components/_overview.css';
+@import 'components/_user-view.css';
+
+
+/* LAYOUTS CSS */
+@import 'layouts/_footer.css';
+@import 'layouts/_header.css';
+@import 'layouts/_main.css';
+@import 'layouts/_sidebar.css';
+
+
+/* PAGES CSS */
+@import 'pages/_home.css';
+
+
+/* RESET HTML */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark)) ;
+    background-repeat: no-repeat;
+    color: var(--color-gray-dark-2);
+}

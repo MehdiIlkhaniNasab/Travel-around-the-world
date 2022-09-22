@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Trillow App</title>
+</head>
+
+<body dir="rtl">
+
+    <div class="container">
+        <!-- EHADER -->
+        <header class="header">
+            <div class="logo-box">
+                <img src="Img/logo.png" alt="Trillo Logo" class="logo-box__img">
+            </div>
+
+            <form action="#" class="form-search">
+                <div class="form_search-box">
+                    <input type="search" class="form-search__input" name="" id=""
+                        placeholder="هتل مورد نظر خود را وارد کنید">
+                    <button class="form-search__btn">
+                        <svg class="search__icon">
+                            <use xlink:href="Img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="Img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notf">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="Img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notf">15</span>
+                </div>
+                <div class="uesr-nav__details">
+                    <div class="user-nav__photo-box">
+                        <img src="Img/user-3.jpg" alt="user photo" class="user-nav__photo">
+                    </div>
+                    <span class="user-nav__name">مهدی</span>
+                </div>
+            </nav>
+        </header>
+        <!-- End EHADER -->
+
+        <div class="content">
+            <!-- NAV -->
+            <nav class="sidebar">
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="Img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span class="siderbar-text">خانه</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="Img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span class="siderbar-text">سفر هوایی</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="Img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span class="siderbar-text">اجاره ماشین</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="Img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span class="siderbar-text">تور ها گردشگری</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <p class="copy-right">&copy; تمام حقوق مادی معنوی این سایت متعلق به <strong>مهدی ایلخانی نسب</strong>
+                    میباشد </p>
+            </nav>
+            <!-- END NAV -->
+
+            <!-- MAIN -->
+            <main class="main">
+                <!-- GALLERY  -->
+                <div class="gallery">
+                    <figure class="gallery__box">
+                        <img src="Img/hotel-1.jpg" alt="photo hotel 1" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__box">
+                        <img src="Img/hotel-2.jpg" alt="photo hotel 2" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__box">
+                        <img src="Img/hotel-3.jpg" alt="photo hotel 3" class="gallery__photo">
+                    </figure>
+                </div>
+                <!-- GALLERY  -->
+
+                <div class="overview">
+
+                    <h3 class="overview__heading">هتل شاپاناما</h3>
+
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="Img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="Img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="Img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="Img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="Img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="Img/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-text">کهگلیویه و بویر احمد / یاسوج</button>
+                    </div>
+
+
+                    <div class="overview__rate">
+                        <h5 class="overview__rate-text">8.97</h5>
+                        <p class="overview__rate-count">412 نظر</p>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="discription">
+                        <p class="paragraph">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز                         </p>
+                        <p class="paragraph">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است 
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">نزدیک به ساحل</li>
+                            <li class="list__item">شاتل فرودگاهی رایگان</li>
+                            <li class="list__item">تهویه مطبوع و گرمایش</li>
+                            <li class="list__item">ما به همه زبان ها صحبت می کنیم</li>
+                            <li class="list__item">شامل صبحانه</li>
+                            <li class="list__item">وای فای رایگان در تمام اتاق ها</li>
+                            <li class="list__item">حیوانات خانگی مجاز است</li>
+                            <li class="list__item">ایده آل برای خانواده ها</li>
+                        </ul>
+                        <div class="user-recommend">
+                            <p class="user-recommend__text">مهدی و سه نفر از دوستان این هتل را توصیه کرده اند</p>
+                            <div class="user-friends">
+                                <img src="Img/user-3.jpg" alt="friend 1"  class="user-recommend__img">
+                                <img src="Img/user-4.jpg" alt="friend 2"  class="user-recommend__img">
+                                <img src="Img/user-5.jpg" alt="friend 3"  class="user-recommend__img">
+                                <img src="Img/user-6.jpg" alt="friend 4"  class="user-recommend__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-view">
+                        <div class="review">
+                            <figure class="review__box">
+                                <p class="review__text">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز 
+                                </p>
+                                <div class="review__user-info">
+                                    <img src="Img/user-1.jpg" alt="user 1" class="review__img">
+                                    <p class="review__name-date">
+                                        <span class="review__user-name">عرشیا احسنی</span>
+                                        <span class="review__data">5 مرداد 1401</span>
+                                    </p>
+                                    <p class="review__rate">7.78</p>
+                                </div>
+                            </figure>
+                            <figure class="review__box">
+                                <p class="review__text">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز 
+                                </p>
+                                <div class="review__user-info">
+                                    <img src="Img/user-1.jpg" alt="user 1" class="review__img">
+                                    <p class="review__name-date">
+                                        <span class="review__user-name">عرشیا احسنی</span>
+                                        <span class="review__data">5 مرداد 1401</span>
+                                    </p>
+                                    <p class="review__rate">7.78</p>
+                                </div>
+                            </figure>
+                            <button class="btn-text">نمایش همه &larr;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <p class="paragraph">خبر خوب برای شما ! ما یک اتاق 4 نفره برای تاریخ مد نظر شما داریم</p>
+
+                    <button class="btn btn-book">الان رزرو کن</button>
+                </div>
+            </main>
+            <!-- END MAIN -->
+        </div>
+    </div>
+
+  
+</body>
+
+</html>

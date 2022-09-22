@@ -1,0 +1,37 @@
+.main{
+    flex: 1 ;
+    background-color: var(--color-gray-light-1);
+}
+
+.gallery{
+    display: flex;
+}
+
+.overview{
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-gray-light-2);
+
+}
+
+.details{
+    display: flex;
+    padding: 5rem 2rem;
+}
+
+.book{
+    margin: 0 2rem ;
+    padding: 3rem;
+    background-color: var(--color-white);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+/* --tab-port size */
+@media screen and (max-width: 768px) {
+    .details{
+        flex-direction: column;
+    }
+}

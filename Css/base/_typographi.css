@@ -1,0 +1,26 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    font-family: var(--font-fourth);
+    line-height: 1.4;
+    font-size: 1.6rem;
+}
+
+
+/* --tab-land size */
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* --small-phone size */
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 37.5%;
+    }
+}
+

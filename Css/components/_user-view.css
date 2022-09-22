@@ -1,0 +1,92 @@
+.user-view{
+    flex: 1;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+}
+
+.review{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--color-primary);
+}
+
+.review__box{
+    background-color: var(--color-white);
+    padding: 2rem 3rem ;
+    text-align: justify;
+    color: var(--color-gray-dark-3);
+    box-shadow: var(--box-shadow-tertiary);
+    border-radius: var(--border-radius-primary);
+    position: relative;
+    z-index: 10;
+}
+
+.review__box::before{
+    content: '\201c';
+    position: absolute;
+    top: -2.5rem;
+    right: 0;
+    font-size: 10rem;
+    color: var(--color-gray-light-4);
+    z-index: -1;
+}
+
+
+.review__user-info{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: var(--font-primary);
+}
+
+.review__img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.review__name-date{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 1rem;
+    color: var(--color-gray-light-4);
+    font-size: 1.2rem;
+}
+.review__user-name{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: var(--color-gray-dark-3);
+    font-size: 1.6rem;
+}
+
+.review__rate{
+    color: var(--color-primary);
+    font-size: 1.8rem;
+}
+
+
+
+
+/* --small-phone size */
+@media screen and (max-width: 768px) {
+
+    .user-view{
+        padding: 0;
+    }
+
+    .review__box{
+        flex: 0 0 100% !important;
+        margin-left: 0 !important;
+        margin-bottom: 1rem;
+        line-height: 3rem;
+    }
+
+    .review__box::before{
+        top: 3rem;
+    }
+}
+
+

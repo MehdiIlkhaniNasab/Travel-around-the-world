@@ -1,0 +1,53 @@
+
+.overview__heading{
+    padding: 2rem 3rem;
+    font-size: 2.8rem;
+    word-spacing: 0.5rem;
+}
+
+.overview__stars{
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+}
+.overview__icon-star,
+.overview__icon-location{
+    width: 1.7rem;
+    height: 1.7rem;
+    fill: var(--color-primary);
+}
+
+.overview__location{
+    display: flex;
+    align-items: center;
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-left: 3rem;
+}
+
+.overview__rate{
+    align-self: stretch;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.25rem;
+}
+.overview__rate-text{
+    font-size: 1.7rem;
+}
+.overview__rate-count{
+    font-size: 1.4rem;
+}
+
+
+/* --small-phone size */
+@media screen and (max-width: 500px) {
+    .overview__heading{
+        padding: 1rem 2rem;
+        font-size: 2.5rem;
+        word-spacing: 0.5rem;
+    }
+}

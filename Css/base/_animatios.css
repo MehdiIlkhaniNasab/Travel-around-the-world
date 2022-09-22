@@ -1,0 +1,14 @@
+@keyframes plusted {
+    0%{
+        box-shadow: none;
+        transform: scale(1);
+    }
+    50%{
+        box-shadow: var(--box-shadow-secondry);
+        transform: scale(1.05);
+    }
+    100%{
+        box-shadow: none;
+        transform: scale(1);
+    }
+}
